@@ -2,6 +2,7 @@ body{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 
+/* HEADER */
 ul{
     list-style: none;
     display: flex;
@@ -69,3 +70,76 @@ button{
     align-items: center;
 }
 
+/*FOOTER*/
+
+/* CONTAINER */
+
+/*SECTION ONE */
+
+.section-one, .section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-one > h4{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937
+}
+
+.images-list{
+    display: flex;
+    text-align: center;
+    color: #7c7d7e
+}
+
+.images-list > div{
+    width: 250px;
+    flex:1;
+}
+
+.images-list > div > img{
+ width: 200px;
+ border: 4px solid #3882F6;
+ border-radius: 12px;
+ height: 200px;
+ object-fit: cover;
+}
+
+/*SECTION TWO*/
+
+.section-two{
+    background-color: #E5E7EB;
+    padding: 50px 0px;
+}
+.section-two > h4{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    width: 500px;
+    margin: 0;
+}
+
+.section-two > p{
+    font-weight: bold;
+}
+
+/*SECTION THREE*/
+.section-three{
+    color: #F9FAF8;
+    margin: 80px 250px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    gap: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-three > button{
+    border: 2px solid #F9FAF8;
+}
