@@ -32,14 +32,6 @@ a{
     padding-top: 124px;
 }
 
-.hero-text{
-    flex:2;
-}
-
-.hero-image{
-    flex:1;
-}
-
 button{
     color:#F9FAF8;
     background-color: #3882F6;
@@ -86,7 +78,7 @@ button{
 
 /*SECTION ONE */
 
-.section-one, .section-two{
+.section-one{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,23 +122,22 @@ button{
 /*SECTION TWO*/
 
 .section-two{
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
-    padding: 50px 0px;
+    padding: 50px 200px;
 }
-.section-two > h4{
+.section-two > p{
     color: #1F2937;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    width: 750px;
-    margin-bottom: 0;
 }
 
-.section-two > p{
-    font-weight: bold;
-    text-align: end;
-    width: 750px;
-    margin-bottom: 50px;
+.section-two > b{
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 10px;
 }
 
 /*SECTION THREE*/
